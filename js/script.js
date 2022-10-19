@@ -11,14 +11,14 @@ render(stringHtml);
 console.log(arrayNum);
 setTimeout(function(){
     render("");
-    
-   setTimeout(function(){
+   
+},30000)
+
+setTimeout(function(){
     const inputValue=inputArray();
     let stringMatch=checkingArray(inputValue);
     spaceResult.innerHTML=stringMatch;
-   },3005) 
-},3000)
-
+   },30001) 
 
 
 
